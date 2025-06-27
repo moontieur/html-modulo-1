@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo 1 - HTML</title>
+</head>
+<body>
+    <h1><font face="Monospace">Primeiros Passos com HTML</font></h1>
+    <hr />
+
+    <h2>Índices</h2>
+    <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#estrutura-basica">Estrutura Básica</a></li>
+        <li><a href="#elementos-comuns">Elementos Comuns</a></li>
+        <li><a href="#formatacao-texto">Formatação de Texto</a></li>
+        <li><del>JavaScript</del></li>
+    </ul>
+    <hr />
+    <h2 id="introducao"><strong>Introdução</strong></h2>
+    <p>HTML (<i>Linguagem de Marcação de HiperTexto</i>) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação <mark>(<abbr title="">CSS</abbr>)</mark> ou a funcionalidade/comportamento <mark>(JavaScript)</mark> de uma página da web.</p>
+    <hr />
+    <h2 id="estrutura-basica">Estrutura Básica</h2>
+    <p>O documento <small>HTML</small> sempre inicia com o que chamamos de estrutura básica. Esta estrutura é quase que imutável. Sempre será dessa forma e você sempre, sempre começará seu HTML começando por esse código. Geralmente os editores como o Sublime Text já tem atalhos para iniciar os documentos HTMLs com essa estrutura, logo, você não precisa se preocupar em decorá-la, mas é bom que faça. Veja abaixo como ela se inicia:</p>
+    <p>É possível compreender o documento em HTML de uma maneira muito simples, através de uma divisão de blocos das tags essenciais, conforme a a seguinte estrutura:</p>
+    <ol>
+        <li>Definição do documento <u>(doctype)</u></li>
+        <li>Cabeça <u>(head)</u></li>
+        <li>Corpo <u>(body)</u></li>
+    </ol>
+    <hr />
+    <h2 id="elementos-comuns">Elementos Comuns</h2>
+    <p>Elementos são formados a partir de Tags e entre as Tags é que está o conteúdo do Elemento.
+        Se quisermos exibir um parágrafo em um site utilizamos a Tag <strong>"p"</strong> que semanticamente quer dizer que o conteúdo que se espera nesse Elemento é um parágrafo.
+        Alguns exemplos:</p>
+        <blockquote>
+                <h5>Não confunda Tags com Elementos</h5>
+                As Tags servem para marcar onde começam e terminam os Elementos. Já os Elementos são uma parte conceitual/semântica que têm um começo e fim determinados.
+                Parece uma diferença boba, mas mantenha ela sempre em mente e isso vai fazer toda a diferença no seu entendimento de HTML.
+        </blockquote>
+    <hr />
+    <h2 id="formatacao-texto">Formatação de Texto</h2>
+    <p>Existem muitos outros elementos em HTML para formatação de texto. Os elementos descritos neste artigo são menos conhecidos, mas ainda são úteis para conhecer (e isso ainda não é uma lista completa de todos os elementos). Aqui, você aprenderá a marcar citações, listas de descrição, código de computador e outros textos relacionados, subscrito e sobrescrito, informações de contato e muito mais.</p>
+    <p>No HTML, podemos aplicar diferentes formatações ao texto para destacar ou dar significado especial a certas partes do conteúdo. Um exemplo interessante é a tag <strong>"sub"</strong>, que serve para exibir um texto em formato subscrito, ou seja, levemente abaixo da linha normal do texto. Essa formatação é bastante usada em fórmulas químicas e expressões matemáticas.
+        Por exemplo, ao escrever a fórmula da água em HTML, podemos usar:</p>
+    <h6>H<sub>2</sub>0</h6>
+    <p>Colocando o número dois entre duas tags <strong>sub</strong> para ser um número menor que as outras letras.</p>
+    <p>No HTML, além de formatar textos com negrito, itálico e outros estilos, também podemos usar formatações específicas para expressões matemáticas ou científicas. Um bom exemplo disso é a tag <strong>sup</strong>, que serve para exibir um texto em formato sobrescrito, ou seja, ligeiramente acima da linha do texto normal.
+        Esse tipo de formatação é muito útil em expressões como potências matemáticas. Por exemplo, para escrever "10 ao quadrado", usamos:</p>
+       <h6>10<sup>2</sup></h6> 
+    <hr />
+</body>
+<footer>
+    <h2>Referências</h2>
+    <ul>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">MDN Web Docs - HTML</a></li>
+        <li><a href="https://www.w3schools.com/html/">W3Schools - HTML</a></li>
+        <li><a href="https://www.w3.org/TR/html52/">W3C - HTML 5.2 Specification</a></li>
+        <li><a href="https://dio.me">Dio HTML</a></li>
+    </ul>
+</footer>
+</html>
